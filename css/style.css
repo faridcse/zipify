@@ -67,8 +67,7 @@ a, a:hover{
     margin-top: 20px;
 }
 
-a:hover{
-    
+.banner-inner a:hover{    
     transform: translateY(-5px);
     transition: all 0.2s linear !important;
 }
@@ -101,6 +100,11 @@ a:hover{
     display: inline-block;
 }
 
+.grow-ur-business a:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s linear !important;
+}
+
 .our-products{
     padding: 50px 50px
 }
@@ -119,8 +123,7 @@ a:hover{
     background: #FAFAFA;
 }
 .product-inner img{
-
-display: inline-block;
+    display: inline-block;
 }
 .our-products a{
     padding: 20px 100px;
@@ -130,6 +133,11 @@ display: inline-block;
     font-weight: 700;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.our-products a:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s linear !important;
 }
 
 .our-products p{
