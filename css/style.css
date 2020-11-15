@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/***********************************
+          Your Project css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+.header-section .navbar img{
+    max-width: 30%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.banner{
+    background: #285EA6;
+    padding:80px 0;
+}
+.banner-inner{
+    padding: 15px 25px;
+}
+
+.banner-inner h1{
+    font-size: 45px;
+    color: #fff;
+    font-style: italic;
+    padding: 15px 0;
+}
+
+.banner-inner ul{}
+.banner-inner ul li{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+}
+.banner-inner a{
+    padding: 20px 100px;
+    background: #FF764B;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover{
+    
+    transform: translateY(-5px);
+    transition: all 0.2s linear !important;
+}
+/***********************************
+      header-section css end
+***********************************/
+.grow-ur-business{
+    padding:80px 100px;
+    background:#FAFAFA;
+}
+.grow-ur-business h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3BB44A;
+}
+.grow-ur-business p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    padding: 0px 72px;
+}
+.grow-ur-business a{
+    padding: 20px 100px;
+    background: #3BB44A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.our-products{
+    padding: 50px 50px
+}
+.our-products h2{
+    font-size: 28px;
+    color: #84858D;
+    padding: 25px 0;
+}
+.product-inner{
+    width: 80%;
+    padding: 80px 100px;
+    border: 1px solid #000;
+    /* align-items: center; */
+    /* text-align: center; */
+    display: inline-block;
+    background: #FAFAFA;
+}
+.product-inner img{
+
+display: inline-block;
+}
+.our-products a{
+    padding: 20px 100px;
+    background: #3BB44A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.our-products p{
+    padding: 30px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.footer-widget{
+    background: #F2F1F1;
+    padding:50px 0;
+}
+
+.footer-widget h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #52525B;
+}
+.footer-widget li{
+    list-style: none;
+    font-size: 16px;
+    color: #84858D;
+    line-height: 40px;
+}
+.footer-widget li a{
+    color: #84858D;
+}
+
+.footer-widget span{
+    height: 2px;
+    width: 100%;
+    background: #DFE0E0;
+    display: inline-block;
+    margin: 20px 0
+}
+
+
+
+
+.copyright-text{
+    padding-left: 130px;
+}
+
+.copyright-text p,a{
+    font-size: 13px;
+    color: #9B9B9E;
+}
+
+.footer-social-icon{
+    padding-right: 20px;
+}
+
+.footer-social-icon ul{}
+.footer-social-icon ul li{}
+.footer-social-icon ul li a{
+    padding: 15px 20px;
+    font-size: 25px;
+    color: #CACACA;
+}
