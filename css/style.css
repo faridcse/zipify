@@ -301,16 +301,43 @@ a, a:hover{
     text-align: center;
     font-size: 18px;
     color: #cba690;
+    outline: 0;
 }
 .sign-up .sign-up-inner button{
         width: 35%;
-    height: 52px;
+    height: 50px;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
     background: #3BB44A;
     color: #fff;
     margin-left: 15px;
+    border: 0;
 }
 
 
+
+
+.contact-section{
+    width: 100%;
+    padding: 30px 30px;
+}
+
+.contact-section .contact-background{
+    background: url("../images/contact-banner.jpg") repeat no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+.contact-text-right img{
+    width: 30%;
+    padding: 76px 0px;
+    margin-left: 100px;
+}
+
+.contact-text-right p{
+    font-size: 18px;
+    color: #000000cc;
+    padding: 0px 140px;
+}
