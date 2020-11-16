@@ -75,6 +75,7 @@ a, a:hover{
       header-section css end
 ***********************************/
 .grow-ur-business{
+    width: 100%;
     padding:80px 100px;
     background:#FAFAFA;
 }
@@ -106,6 +107,7 @@ a, a:hover{
 }
 
 .our-products{
+    width: 100%;
     padding: 50px 50px
 }
 .our-products h2{
@@ -198,3 +200,117 @@ a, a:hover{
     font-size: 25px;
     color: #CACACA;
 }
+
+
+.about-banner{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.about-banner .about-banner-left-inner{
+    width: 100%;
+    padding: 0 57px;
+}
+.about-banner .about-banner-left-inner h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #5f5d5d;
+}
+.about-banner .about-banner-left-inner p{
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #7d7b7b;
+}
+.about-banner .about-banner-left-inner a{
+    padding: 20px 40px;
+    background: #3BB44A;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.about-banner .about-banner-left-inner a:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s linear !important;
+}
+
+.about-banner .about-banner-right-image{
+    padding-left: 100px;
+}
+
+.ezra{
+    width: 100%;
+}
+
+.ezra .ezra-image{
+    padding: 0 50px 0 50px;
+}
+
+.ezra .ezra-text{
+    padding: 100px 25px;
+}
+.ezra .ezra-text h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #5f5d5d;
+}
+.ezra .ezra-text p{
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #7d7b7b;
+}
+.ezra .ezra-text a{
+    color: #3BB44A;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.sign-up{
+    width: 100%;
+    padding: 50px 100px;
+    background: #52535E;    
+}
+
+.sign-up .sign-up-inner{
+    width: 100%;
+}
+
+.sign-up .sign-up-inner h4{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.sign-up .sign-up-inner h2{
+        font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.sign-up .sign-up-inner input{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #cba690;
+}
+.sign-up .sign-up-inner button{
+        width: 35%;
+    height: 52px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    background: #3BB44A;
+    color: #fff;
+    margin-left: 15px;
+}
+
+
