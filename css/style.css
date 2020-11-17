@@ -324,15 +324,15 @@ a, a:hover{
 }
 
 .contact-section .contact-background{
-    background: url("../images/contact-banner.jpg") repeat no-repeat;
-    background-size: cover;
-    height: 70vh;
+    padding: 160px 0;
+    background: url(../images/contact-banner.jpg) no-repeat center center;
+    background-size: 100% 100%;
 }
 
 
 .contact-text-right img{
     width: 30%;
-    padding: 76px 0px;
+    padding: 25px 0px;
     margin-left: 100px;
 }
 
